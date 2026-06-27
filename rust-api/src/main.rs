@@ -74,7 +74,7 @@ async fn main() {
         .await
         .expect("failed to bind API port");
 
-    println!("TradingAgents Rust API listening on http://{addr}");
+    println!("FundPilot Rust API listening on http://{addr}");
     axum::serve(listener, app).await.expect("API server failed");
 }
 
@@ -83,7 +83,7 @@ async fn health() -> Response {
         StatusCode::OK,
         json!({
             "ok": true,
-            "service": "TradingAgents Fund Client Rust API",
+            "service": "FundPilot Client Rust API",
             "time": now_iso()
         }),
     )

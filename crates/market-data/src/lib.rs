@@ -120,7 +120,7 @@ struct SymbolItem {
 impl MarketDataClient {
     pub fn new() -> Result<Self, reqwest::Error> {
         let client = reqwest::Client::builder()
-            .user_agent("Mozilla/5.0 TradingAgentsFundClient/1.0")
+            .user_agent("Mozilla/5.0 FundPilotClient/1.0")
             .timeout(Duration::from_secs(10))
             .build()?;
 

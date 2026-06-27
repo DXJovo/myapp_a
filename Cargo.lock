@@ -875,6 +875,30 @@ dependencies = [
 ]
 
 [[package]]
+name = "fundpilot-api"
+version = "1.0.0"
+dependencies = [
+ "axum",
+ "market-data",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tower-http",
+ "tracing-subscriber",
+]
+
+[[package]]
+name = "fundpilot-desktop"
+version = "1.0.0"
+dependencies = [
+ "market-data",
+ "serde",
+ "tauri",
+ "tauri-build",
+ "tokio",
+]
+
+[[package]]
 name = "futures-channel"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3910,30 +3934,6 @@ dependencies = [
  "tracing",
  "tracing-core",
  "tracing-log",
-]
-
-[[package]]
-name = "tradingagents-fund-api"
-version = "1.0.0"
-dependencies = [
- "axum",
- "market-data",
- "serde",
- "serde_json",
- "tokio",
- "tower-http",
- "tracing-subscriber",
-]
-
-[[package]]
-name = "tradingagents-fund-desktop"
-version = "1.0.0"
-dependencies = [
- "market-data",
- "serde",
- "tauri",
- "tauri-build",
- "tokio",
 ]
 
 [[package]]

@@ -1,6 +1,6 @@
-# TradingAgents 基金方案桌面客户端
+# FundPilot 基金方案桌面客户端
 
-一个基于 Rust + Tauri + React 的桌面客户端，用 TradingAgents 风格的多角色投研流程辅助查看自选基金、A 股与美股标的的实时/近实时行情，并生成组合权重、再平衡和风控建议。
+一个基于 Rust + Tauri + React 的桌面客户端，用多角色投研流程辅助查看自选基金、A 股与美股标的的实时/近实时行情，并生成组合权重、再平衡和风控建议。
 
 ## 功能
 
@@ -8,7 +8,7 @@
 - 真实数据：东方财富、天天基金估值、CNBC、USD/CNY 汇率。
 - 真实搜索：按代码或名称搜索 A 股/基金/美股标的。
 - 组合方案：目标权重、持有份额、人民币折算市值、再平衡金额。
-- TradingAgents 面板：基本面、情绪、市场/宏观、技术分析师，多空研究员，交易员，风控与组合经理。
+- FundPilot 决策面板：基本面、情绪、市场/宏观、技术分析师，多空研究员，交易员，风控与组合经理。
 - 桌面运行：Tauri 桌面端直接调用 Rust 数据命令，不依赖 localhost API。
 - 浏览器调试：保留 Rust HTTP API 和 Vite 调试模式。
 - 导出方案：可导出当前组合和行情快照 JSON。
@@ -29,7 +29,7 @@ npm run desktop:build
 构建后的 exe 默认位于：
 
 ```text
-target/release/tradingagents-fund-desktop.exe
+target/release/fundpilot-desktop.exe
 ```
 
 ## 浏览器调试模式

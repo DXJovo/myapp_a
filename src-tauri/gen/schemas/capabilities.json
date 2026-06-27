@@ -1,1 +1,1 @@
-{"default":{"identifier":"default","description":"Default permissions for the TradingAgents fund desktop client.","local":true,"windows":["main"],"permissions":["core:default"]}}
+{"default":{"identifier":"default","description":"Default permissions for the FundPilot desktop client.","local":true,"windows":["main"],"permissions":["core:default"]}}

@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "TradingAgents Fund Client",
+  "productName": "FundPilot",
   "version": "1.0.0",
-  "identifier": "com.tradingagents.fundclient",
+  "identifier": "com.fundpilot.client",
   "build": {
     "beforeDevCommand": "npm run dev:web",
     "devUrl": "http://localhost:5173",
@@ -13,7 +13,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "TradingAgents 基金方案客户端",
+        "title": "FundPilot 基金方案客户端",
         "width": 1440,
         "height": 960,
         "minWidth": 1100,

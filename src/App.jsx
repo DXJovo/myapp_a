@@ -142,7 +142,7 @@ export default function App() {
             <Bot size={22} />
           </div>
           <div>
-            <strong>TradingAgents</strong>
+            <strong>FundPilot</strong>
             <span>基金方案客户端</span>
           </div>
         </div>
@@ -306,7 +306,7 @@ export default function App() {
         <section id="agents" className="panel agents-panel">
           <div className="panel-header">
             <div>
-              <span className="eyebrow">TradingAgents Decision Room</span>
+              <span className="eyebrow">FundPilot Decision Room</span>
               <h2>{selectedRow?.quote?.name || selectedRow?.code || "请选择标的"}</h2>
             </div>
             <div className="score-pill">综合分 {analysis.score}</div>

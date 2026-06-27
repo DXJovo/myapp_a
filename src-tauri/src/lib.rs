@@ -33,11 +33,11 @@ pub fn run() {
         .manage(DesktopState { market })
         .setup(|app| {
             if let Some(window) = app.get_webview_window("main") {
-                let _ = window.set_title("TradingAgents 基金方案客户端");
+                let _ = window.set_title("FundPilot 基金方案客户端");
             }
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![get_quotes, get_fx, search_symbols])
         .run(tauri::generate_context!())
-        .expect("error while running TradingAgents desktop client");
+        .expect("error while running FundPilot desktop client");
 }
